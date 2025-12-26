@@ -6,7 +6,7 @@ def update_dictionary(dct, key, value):
     - Return the updated dictionary.
     """
     if key in dct:
-        print(f"Original value for '{key}': {dct[key]}")
+        print(f"'{key}': {dct[key]}")
     
     dct[key] = value
     return dct
